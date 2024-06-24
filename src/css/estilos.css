@@ -1,0 +1,95 @@
+.wrapper {
+    max-width: 1440px;
+    padding: 0 72px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header .logo{
+    width: 215px;
+    margin-top: 54px;
+}
+
+.main{
+    display: flex;
+    margin-top: 80px;
+    gap: 52px;
+}
+
+.main .imagem{
+    min-width: 710px;
+    max-height: 510px;
+}
+
+.main .informacoes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    max-width: 520px;
+}
+
+.main .informacoes .titulo{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.main .informacoes .texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 23px;
+}
+
+.main .informacoes .botao-registrar a{
+    display: inline-block;
+    width: 200px;
+    height: 56px;
+
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 18px;
+    text-align: center;
+    line-height: 55px;
+
+    border-radius: 30px;
+    background-color: var(--cor-branco);
+    box-shadow: 1px 1px 5px 0px #330e38;
+    transition: 0.3s;
+}
+
+.main .informacoes .botao-registrar a:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+}
+
+.footer{
+    padding: 28px 0;
+}
+
+.footer .redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .redes-sociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+
+    border: 1px solid var(--cor-branco);
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 39px;
+    color: var(--cor-branco);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.footer .redes-sociais a:hover{
+    color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+}
