@@ -1,6 +1,11 @@
 # Desafio FrontEnd Mentor - Huddle
 Desafio de HTML e CSS iniciante, proposto no curso DevQuest do Dev em Dobro.
 
+## Atualizações
+17-07-2024: **Refatoração do código**
+- Troca de tag div para ul na parte das redes-sociais;
+- Centralização da página verticalmente;
+
 ## 🛠 Tecnologias Utilizadas 🛠
 - HTML5
 - CSS3

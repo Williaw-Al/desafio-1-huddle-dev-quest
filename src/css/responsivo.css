@@ -95,5 +95,6 @@
         line-height: 28px;
         font-size: 14px;
         margin: 0 5px;
+        grid-template-columns: repeat(auto-fill, minmax(2,2));
     }
 }
